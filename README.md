@@ -6,10 +6,10 @@ Sistema de streaming de música desenvolvido em Python com PostgreSQL, utilizand
 
 ## 👥 Integrantes do Grupo
 
-> _Ebler_
-> _Matheus Damasceno Glória_
-> _Marcos de Oliveira da Silva_
-> _Nádia Maria Leão Xavier_
+> - _Ebler_
+> - _Matheus Damasceno Glória_
+> - _Marcos de Oliveira da Silva_
+> - _Nádia Maria Leão Xavier_
 
 ---
 
