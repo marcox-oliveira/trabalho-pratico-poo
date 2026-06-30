@@ -1,4 +1,14 @@
-from .conexao import obter_conexao, fechar_conexao
-from .schema import criar_tabelas
+from .base import EntidadeBase
+from .usuario import Usuario, Ouvinte, Assinante
+from .artista import Artista
+from .album import Album
+from .midia import Midia, Musica, Podcast
+from .playlist import Playlist
 
-__all__ = ["obter_conexao", "fechar_conexao", "criar_tabelas"]
+__all__ = [
+    "EntidadeBase",
+    "Usuario", "Ouvinte", "Assinante",
+    "Artista", "Album",
+    "Midia", "Musica", "Podcast",
+    "Playlist",
+]
