@@ -1,8 +1,6 @@
 import psycopg2
 from psycopg2 import OperationalError
-
 def obter_conexao():
-    """Retorna uma conexão com o banco de dados PostgreSQL."""
     try:
         conexao = psycopg2.connect(
             host="localhost",
